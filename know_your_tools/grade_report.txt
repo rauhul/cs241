@@ -1,0 +1,6 @@
+-- Grading dumb.c --
+dumb.c exists
+dumb.c compiles
+dumb.c segfaults! (+1)
+-- Total Score --
+dumb.c		:	1.0

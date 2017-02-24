@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en" ng-app="gradeReportApp">
+  <head>
+    <meta charset="utf-8">
+    <title>GRADE REPORT</title>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+    <!-- Google Material Design -->
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div ng-controller='MainController'>
+      <!-- Always shows a header, even in smaller screens. -->
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">CS 241 Grade Report</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a ng-repeat="result in results" class="mdl-navigation__link" href ="" ng-click="updateSelected(result.timestamp);" ng-style="result.timestamp == selected ? { color:'#E91E63' } : { }">{{result.timestamp}}</a>
+            </nav>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Timestamp</span>
+          <nav class="mdl-navigation">
+            <a ng-repeat="result in results" class="mdl-navigation__link" href ="" ng-click="updateSelected(result.timestamp); closeDrawer()">{{result.timestamp}}</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+          <div class="page-content">
+            <!-- Your content goes here -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-8" style="float: none; margin: 0 auto;">
+                  <div id = "summary" class="mdl-card mdl-shadow--2dp large-card" style = "width:100%; margin-top: 2%;">
+                    <div class="mdl-card__title" style = "background-color: #03a9f4">
+                      <h2 class="mdl-card__title-text" style = "color: white">Summary</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      For your autograde submitted at [{{selected}}] you received a [{{pointsEarned}}/{{pointsPossible}}].
+                    </div>
+                  </div>
+                  <div id = "disclaimer" class="mdl-card mdl-shadow--2dp large-card" style = "width:100%; margin-top: 2%;">
+                    <div class="mdl-card__title" style = "background-color: #03a9f4">
+                      <h2 class="mdl-card__title-text" style = "color: white">Disclaimer</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>
+                        This autograde report is a preliminary assessment of your program's correctness.
+                        Your grade may change UP OR DOWN based on the CORRECTNESS OF YOUR PROGRAM.
+                        We make every effort to ensure that our autograder is 'smart' enough to not count off for simple things like grammar but, in doing so, we may inadvertently allow for incorrect code to be counted as correct.
+                        If we have to change our script to better reflect the CORRECTNESS OF YOUR PROGRAM, we will run the script on EVERY TESTCASE and update EVERY STUDENT'S AUTOGRADER OUTPUT to ensure fairness to all students.
+                        Thanks for understanding!
+                      </p>
+                    </div>
+                  </div>
+                  <div id = "integrity" class="mdl-card mdl-shadow--2dp large-card" style = "width:100%; margin-top: 2%;">
+                    <div class="mdl-card__title" style = "background-color: #03a9f4">
+                      <h2 class="mdl-card__title-text" style = "color: white">Academic Integrity</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>
+                        Cheating is taken very seriously in CS 241 and all cases of cheating will be brought to the University, your department, and your college.
+                        You should understand how <a href="https://wiki.cites.illinois.edu/wiki/display/undergradProg/Honor+Code">academic integrity</a> applies to Computer Science courses.
+                      </p>
+                      <ul>
+                        <li>If you are caught cheating on an assignment and it was your <strong>first</strong> offense then you will lose all points for the assignment <strong>and</strong> your final course grade will be lowered by one whole letter grade.</li>
+                        <li>If you are caught cheating on an assignment and it was your <strong>second</strong> offense then you will automatically fail the course.</li>
+                        <li><strong>Third</strong> offenses and onward do not really matter since you have already failed the course.</li>
+                      </ul>
+                      <p><span style = "color:green">Rule of Thumb</span> - If at any point you submit an assignment that does not reflect your understanding of the material, then you have probably cheated.</p>
+                      <p>
+                        Additionally, you may not publish your solutions or leave them in 'plain view' thereby leaving your programs open to copying, which constitutes cheating.
+                        If your code (or a variation of it) is found publicly accessible, then you will receive a letter grade reduction for each assignment.
+                        For example, if we find your code on GitHub for one MP then you will receive a letter grade reduction. 2 letter grades for 2 assignments and so on.
+                        If you are confused on what it means to be 'publicly accessible', then do not put your code anywhere besides https://subversion.ews.illinois.edu and take measures to ensure that nobody can copy your code, so that you are not charged with a violation.
+                      </p>
+                    </div>
+                  </div>
+                  <div ng-repeat = "result in results | filter:selected" class="mdl-card mdl-shadow--2dp large-card" style = "margin-top:5%; margin-bottom:5%; width:100%;">
+                    <div style="padding: 2%;">
+                      <h3 style = "display: inline-block;">Revision: <a ng-href = "./?p={{result.revision}}">{{result.revision}}</a></h3>
+                      <h3 style = "display: inline-block; float:right;">Timestamp: {{result.timestamp}}</h3>
+                      <br/>
+                      <h4>SHA1 checksum(s):</h4>
+                      <pre>{{result.checksum}}</pre>
+                      <div ng-repeat = "testcase in result.testcases">
+                        <div class="collapse-card" ng-attr-id={{$index}}>
+                          <div class="collapse-card__heading" style ="background-color: #E1E9F1" ng-click="update($index)">
+                            <div class="collapse-card__title">
+                              <i class="fa fa-question-circle fa-2x fa-fw"></i>
+                              <h4>
+                                <span style="color:black; padding-right:2%">Testcase: <code>{{testcase.name}}</code></span>
+                                <span ng-style = "testcase.ptsEarned == testcase.ptsPossible ? { 'color':'green' } : { 'color': 'red' }">({{testcase.ptsEarned}}/{{testcase.ptsPossible}})</span>
+                              </h4>
+                            </div>
+                          </div>
+                          <div class="collapse-card__body">
+                            <h5>Description: {{testcase.description}}</h5>
+                            <pre style="background-color:black;white-space:pre-wrap; overflow-y: scroll; overflow-x:hidden; height: 300px;"><code style = "color:white; font-family:monospace;">{{testcase.log}}</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+  <style>
+/*!
+  Paper Collapse v0.4.0
+  Collapsible paper cards.
+  Made with love by bbo - ©2015 Alexander Rühle
+  MIT License http://opensource.org/licenses/MIT
+*/
+/*.collapse-card{background-color:#fff;border-bottom:1px solid #eee;color:#777;-webkit-transition:0.4s;-moz-transition:0.4s;-o-transition:0.4s;transition:0.4s}.collapse-card *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.collapse-card.active{-moz-box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.18824);-webkit-box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.18824);box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.18824);z-index:200;margin:1rem -1rem}.collapse-card.active .collapse-card__heading:hover::after{content:"\f066"}.collapse-card .collapse-card__heading:hover::after{content:"\f065"}.collapse-card__heading{cursor:pointer;padding:1rem;position:relative}.collapse-card__heading:before,.collapse-card__heading:after{content:" ";display:table}.collapse-card__heading:after{clear:both}.collapse-card__heading i{float:left}.collapse-card__heading::after{color:#404040;font-family:'FontAwesome';font-size:1rem;line-height:2rem;padding-left:.4rem;position:absolute;right:1rem;top:1rem}.collapse-card__title{font-size:1rem;line-height:2rem;margin:0 2rem 0 0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.collapse-card__body{padding:1rem;display:none}*/
+
+.collapse-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    color: #777;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.collapse-card__title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.collapse-card__heading {
+    font-size: 1em;
+    line-height: 2em;
+    cursor: pointer;
+    padding: 1em;
+    position: relative;
+}
+.collapse-card__heading i {
+    float: left;
+}
+.collapse-card__body {
+    overflow: hidden;
+    transition: .4s;
+    max-height: 0px;
+    opacity: 0;
+}
+.collapse-card.active {
+    -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18824);
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18824);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18824);
+    z-index: 200;
+    margin: 1rem -1rem;
+}
+.collapse-card.active .collapse-card__body {
+    max-height: 400px;
+    padding: 1em;
+    opacity: 1;
+}
+</style>
+  <script>
+var gradeReportApp = angular.module('gradeReportApp', ['gradeReportControllers']);
+var gradeReportControllers = angular.module('gradeReportControllers', []);
+
+gradeReportControllers.controller('MainController', ['$scope', '$http', function($scope, $http) {
+  $http.get("results.json").success(function(data) {
+        $scope.results = data;
+        $scope.selected = data[data.length - 1].timestamp;
+        $scope.pointsEarned = 0;
+        $scope.pointsPossible = 0;
+        $scope.updatePoints = function() {
+            $scope.pointsEarned = 0;
+            $scope.pointsPossible = 0;
+            // Find the matching autograde
+            var autograde;
+            for (var i = 0; i < data.length; i++) {
+                if (data[i].timestamp == $scope.selected) {
+                    autograde = data[i];
+                }
+            }
+            // Sum up total points
+            for (var i = 0; i < autograde.testcases.length; i++) {
+                var testcase = autograde.testcases[i];
+                $scope.pointsEarned += testcase.ptsEarned;
+                $scope.pointsPossible += testcase.ptsPossible;
+            }
+        }
+        for (var i = 0; i < data.length; i++) {
+            $scope.pointsEarned += parseInt(data[i].ptsEarned, 10);
+            $scope.pointsPossible += parseInt(data[i].ptsPossible, 10);
+        }
+        $scope.update = function(index) {
+            $("#" + index).toggleClass("active");
+        };
+        $scope.updateSelected = function(input) {
+            $scope.selected = input;
+            $scope.updatePoints();
+        };
+        $scope.closeDrawer = function() {
+            $(".mdl-layout__drawer").toggleClass("is-visible");
+        };
+        $scope.updatePoints();
+    });
+}]);
+</script>
+</html>

@@ -1,0 +1,8 @@
+SAMPLE_INT:500:0:2000
+BEGIN
+START:0
+INTERVAL:30
+heart_beat:100
+blood_sugar:104
+body_temp:104
+END

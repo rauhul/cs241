@@ -1,0 +1,394 @@
+[
+  {
+    "timestamp": "2016-10-27 22:00:00.984747", 
+    "testcases": [
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_fcfs", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_ppri", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_pri", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_psjf", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 0.0, 
+        "log": "Output did not match solution output", 
+        "name": "test_rr2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_sjf", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "61215", 
+    "checksum": "cbd7e59d939a79463424cd47a1ae0c9b2f39a94a  libscheduler.c"
+  }, 
+  {
+    "timestamp": "2016-10-28 22:00:01.306534", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_fcfs", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_ppri", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_pri", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_psjf", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Output did not match solution output", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_rr2", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_sjf", 
+        "description": "Compare output of solutions"
+      }
+    ], 
+    "checksum": "cbd7e59d939a79463424cd47a1ae0c9b2f39a94a  libscheduler.c", 
+    "revision": "61479"
+  }, 
+  {
+    "timestamp": "2016-10-29 22:00:00.960245", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_fcfs", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_ppri", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_pri", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_psjf", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_rr2", 
+        "log": "Output did not match solution output"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_sjf", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }
+    ], 
+    "revision": "61842", 
+    "checksum": "cbd7e59d939a79463424cd47a1ae0c9b2f39a94a  libscheduler.c"
+  }, 
+  {
+    "timestamp": "2016-10-30 22:00:01.223610", 
+    "testcases": [
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_fcfs", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_ppri", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_pri", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_psjf", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_rr2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_sjf", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "checksum": "a79029f51eb984632a3422dc051152a5f496d847  libscheduler.c", 
+    "revision": "62235"
+  }, 
+  {
+    "timestamp": "2016-10-31 22:00:01.410735", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_fcfs", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_ppri", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_pri", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_psjf", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_rr2", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_sjf", 
+        "description": "Compare output of solutions"
+      }
+    ], 
+    "revision": "62680", 
+    "checksum": "a79029f51eb984632a3422dc051152a5f496d847  libscheduler.c"
+  }, 
+  {
+    "timestamp": "2016-11-01 22:00:01.313930", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_fcfs", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_ppri", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_pri", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_psjf", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_rr2", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Compare output of solutions", 
+        "name": "test_sjf", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }
+    ], 
+    "checksum": "a79029f51eb984632a3422dc051152a5f496d847  libscheduler.c", 
+    "revision": "63183"
+  }, 
+  {
+    "timestamp": "2016-11-02 12:00:00.953407", 
+    "testcases": [
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_fcfs", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_ppri", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_pri", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_psjf", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_rr2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Compare output of solutions", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_sjf", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "63426", 
+    "checksum": "a79029f51eb984632a3422dc051152a5f496d847  libscheduler.c"
+  }, 
+  {
+    "timestamp": "2016-11-03 08:00:00.980947", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_fcfs", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_ppri", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_pri", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_psjf", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_rr2", 
+        "description": "Compare output of solutions"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_sjf", 
+        "description": "Compare output of solutions"
+      }
+    ], 
+    "checksum": "a79029f51eb984632a3422dc051152a5f496d847  libscheduler.c", 
+    "revision": "64361"
+  }
+]

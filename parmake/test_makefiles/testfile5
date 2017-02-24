@@ -1,0 +1,26 @@
+all: examples/file1
+	echo "This (and the following lines) line should always be shown."
+	echo
+	echo "If you would like to reset this testcase, run:"
+	echo ===
+	echo make -f testfile5 reset
+	echo ===
+	echo ...OR, even better, use your own program to reset it!  To do that:
+	echo ===
+	echo ./parmake -f testfile5 reset
+	echo === 
+
+examples/file1: examples/oldfile
+	echo =========================
+	echo === NO NEW FILE FOUND ===
+	echo =========================
+	echo
+	echo "Creating an examples/file1 file that is newer than examples/oldfile."
+	echo "If file1 was already created (eg: last time you ran this), this message should not be seen."
+
+	echo "Hello World" >examples/file1
+
+reset:
+	rm -f examples/file1
+	touch examples/oldfile -d "01/01/2012"
+	echo "Test case reset!"

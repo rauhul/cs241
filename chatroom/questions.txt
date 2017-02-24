@@ -1,0 +1,31 @@
+1) What is a socket?
+
+
+2) What is the difference between the domains AF_INET and AF_UNIX?
+
+
+3) What is the difference between SOCK_STREAM and SOCK_DGRAM?
+
+
+4) Why is it important to clear all the values the addrinfo struct before using it in getaddrinfo?
+
+
+5) What are ai_family and ai_socktype?
+
+
+6) What does getaddrinfo do?
+
+
+7) What does connect do?
+
+
+8) What is setsockopt?
+
+
+9) What does bind do?
+
+
+10) What does listen do?
+
+
+11) What does accept do?

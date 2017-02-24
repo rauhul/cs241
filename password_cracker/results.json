@@ -1,0 +1,1486 @@
+[
+  {
+    "timestamp": "2016-10-11 22:00:00.171516", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_no_crypt", 
+        "description": "Test that crypt was not used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_valid_password", 
+        "description": "Test a single valid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_invalid_password", 
+        "description": "Test a single invalid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_two_threads", 
+        "description": "Test that two threads run at same time"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_four_threads", 
+        "description": "Test that four threads run at same time, cracking 4 passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_12_threads", 
+        "description": "Test that 4 threads run at same time cracking 12 passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_no_busy_wait_threads", 
+        "description": "Test that the program doesn't busy wait"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_eof_end", 
+        "description": "Test that the program doesn't exit until EOF is found"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_queue_by_output", 
+        "description": "Test that your queue works properly by checking order of outputs"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_imbalanced_load", 
+        "description": "Test the order of output of imbalanced loads"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_easy", 
+        "description": "Test a single password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_medium", 
+        "description": "Test a couple of passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_hard", 
+        "description": "Test a lot of password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFound correct output, wrong hash count", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_crypt_r_count", 
+        "description": "Test correct password and crypt_r() count"
+      }
+    ], 
+    "revision": "49513", 
+    "checksum": "a0c5b5c8648939abe774d861e05e672e88f08270  cracker1.c"
+  }, 
+  {
+    "timestamp": "2016-10-12 22:00:00.163325", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that crypt was not used", 
+        "name": "test_no_crypt", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test a single valid password", 
+        "name": "test_one_valid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test a single invalid password", 
+        "name": "test_one_invalid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that two threads run at same time", 
+        "name": "test_two_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that four threads run at same time, cracking 4 passwords", 
+        "name": "test_four_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that 4 threads run at same time cracking 12 passwords", 
+        "name": "test_12_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that the program doesn't busy wait", 
+        "name": "test_no_busy_wait_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "name": "test_eof_end", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that your queue works properly by checking order of outputs", 
+        "name": "test_queue_by_output", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test the order of output of imbalanced loads", 
+        "name": "test_imbalanced_load", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single password", 
+        "name": "test_memory_easy", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a couple of passwords", 
+        "name": "test_memory_medium", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a lot of password", 
+        "name": "test_memory_hard", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test correct password and crypt_r() count", 
+        "name": "test_crypt_r_count", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFound correct output, wrong hash count"
+      }
+    ], 
+    "checksum": "a0c5b5c8648939abe774d861e05e672e88f08270  cracker1.c", 
+    "revision": "50179"
+  }, 
+  {
+    "timestamp": "2016-10-13 22:00:00.790071", 
+    "testcases": [
+      {
+        "description": "Test that crypt was not used", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_no_crypt", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single valid password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout", 
+        "name": "test_one_valid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single invalid password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password", 
+        "name": "test_one_invalid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that two threads run at same time", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?", 
+        "name": "test_two_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that four threads run at same time, cracking 4 passwords", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?", 
+        "name": "test_four_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that 4 threads run at same time cracking 12 passwords", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?", 
+        "name": "test_12_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that the program doesn't busy wait", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "name": "test_no_busy_wait_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output", 
+        "name": "test_eof_end", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that your queue works properly by checking order of outputs", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "name": "test_queue_by_output", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test the order of output of imbalanced loads", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed the test", 
+        "name": "test_imbalanced_load", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_easy", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a couple of passwords", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_medium", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a lot of password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_hard", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test correct password and crypt_r() count", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFound correct output, wrong hash count", 
+        "name": "test_crypt_r_count", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "50662", 
+    "checksum": "a0c5b5c8648939abe774d861e05e672e88f08270  cracker1.c"
+  }, 
+  {
+    "timestamp": "2016-10-14 22:00:00.812016", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_no_crypt", 
+        "description": "Test that crypt was not used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_valid_password", 
+        "description": "Test a single valid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_invalid_password", 
+        "description": "Test a single invalid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_two_threads", 
+        "description": "Test that two threads run at same time"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_four_threads", 
+        "description": "Test that four threads run at same time, cracking 4 passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_12_threads", 
+        "description": "Test that 4 threads run at same time cracking 12 passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_no_busy_wait_threads", 
+        "description": "Test that the program doesn't busy wait"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_eof_end", 
+        "description": "Test that the program doesn't exit until EOF is found"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_queue_by_output", 
+        "description": "Test that your queue works properly by checking order of outputs"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_imbalanced_load", 
+        "description": "Test the order of output of imbalanced loads"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_easy", 
+        "description": "Test a single password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_medium", 
+        "description": "Test a couple of passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_hard", 
+        "description": "Test a lot of password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_crypt_r_count", 
+        "description": "Test correct password and crypt_r() count"
+      }
+    ], 
+    "checksum": "f0e30ce99aef69b699b425a9f03449a94abfcb11  cracker1.c", 
+    "revision": "51224"
+  }, 
+  {
+    "timestamp": "2016-10-15 22:00:01.465871", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that crypt was not used", 
+        "name": "test_no_crypt", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single valid password", 
+        "name": "test_one_valid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single invalid password", 
+        "name": "test_one_invalid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that two threads run at same time", 
+        "name": "test_two_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that four threads run at same time, cracking 4 passwords", 
+        "name": "test_four_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that 4 threads run at same time cracking 12 passwords", 
+        "name": "test_12_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that the program doesn't busy wait", 
+        "name": "test_no_busy_wait_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "name": "test_eof_end", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that your queue works properly by checking order of outputs", 
+        "name": "test_queue_by_output", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test the order of output of imbalanced loads", 
+        "name": "test_imbalanced_load", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single password", 
+        "name": "test_memory_easy", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a couple of passwords", 
+        "name": "test_memory_medium", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a lot of password", 
+        "name": "test_memory_hard", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test correct password and crypt_r() count", 
+        "name": "test_crypt_r_count", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }
+    ], 
+    "revision": "51902", 
+    "checksum": "397678d04c128e1806888d065b03f6bf9f3c4d5c  cracker1.c"
+  }, 
+  {
+    "timestamp": "2016-10-16 22:00:00.816241", 
+    "testcases": [
+      {
+        "description": "Test that crypt was not used", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_no_crypt", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single valid password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_one_valid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single invalid password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_one_invalid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that two threads run at same time", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_two_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that four threads run at same time, cracking 4 passwords", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_four_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that 4 threads run at same time cracking 12 passwords", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_12_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that the program doesn't busy wait", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_no_busy_wait_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_eof_end", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that your queue works properly by checking order of outputs", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_queue_by_output", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test the order of output of imbalanced loads", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_imbalanced_load", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_easy", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a couple of passwords", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_medium", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a lot of password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_hard", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test correct password and crypt_r() count", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_crypt_r_count", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "checksum": "397678d04c128e1806888d065b03f6bf9f3c4d5c  cracker1.c", 
+    "revision": "52418"
+  }, 
+  {
+    "timestamp": "2016-10-17 12:00:00.778115", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_no_crypt", 
+        "description": "Test that crypt was not used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_valid_password", 
+        "description": "Test a single valid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_invalid_password", 
+        "description": "Test a single invalid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_two_threads", 
+        "description": "Test that two threads run at same time"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_four_threads", 
+        "description": "Test that four threads run at same time, cracking 4 passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_12_threads", 
+        "description": "Test that 4 threads run at same time cracking 12 passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_no_busy_wait_threads", 
+        "description": "Test that the program doesn't busy wait"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_eof_end", 
+        "description": "Test that the program doesn't exit until EOF is found"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_easy", 
+        "description": "Test a single password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_medium", 
+        "description": "Test a couple of passwords"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_hard", 
+        "description": "Test a lot of password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_crypt_r_count", 
+        "description": "Test correct password and crypt_r() count"
+      }
+    ], 
+    "revision": "53180", 
+    "checksum": "397678d04c128e1806888d065b03f6bf9f3c4d5c  cracker1.c"
+  }, 
+  {
+    "timestamp": "2016-10-18 00:00:00.768710", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that crypt was not used", 
+        "name": "test_no_crypt", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single valid password", 
+        "name": "test_one_valid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single invalid password", 
+        "name": "test_one_invalid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that two threads run at same time", 
+        "name": "test_two_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that four threads run at same time, cracking 4 passwords", 
+        "name": "test_four_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that 4 threads run at same time cracking 12 passwords", 
+        "name": "test_12_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that the program doesn't busy wait", 
+        "name": "test_no_busy_wait_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "name": "test_eof_end", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single password", 
+        "name": "test_memory_easy", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a couple of passwords", 
+        "name": "test_memory_medium", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a lot of password", 
+        "name": "test_memory_hard", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test correct password and crypt_r() count", 
+        "name": "test_crypt_r_count", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }
+    ], 
+    "checksum": "397678d04c128e1806888d065b03f6bf9f3c4d5c  cracker1.c", 
+    "revision": "54564"
+  }, 
+  {
+    "timestamp": "2016-10-18 22:00:03.220476", 
+    "testcases": [
+      {
+        "description": "Test a single valid password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout", 
+        "name": "test_one_valid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single invalid password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password", 
+        "name": "test_one_invalid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that 2 threads run at same time, cracking 1 password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "name": "test_two_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that 4 threads run at same time, cracking 1 password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "name": "test_four_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that 13 threads run at same time, cracking 1 password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "name": "test_13_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that same threads were used for second password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCould not find pthread_calls output", 
+        "name": "test_use_same_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output", 
+        "name": "test_eof_end", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test many many passwords.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "name": "test_sanity", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test tsan doesnt throw warnings", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_tsan", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that program stops when 1 thread finds password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "name": "test_early_exit", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single password with memory checks", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_easy", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "55043", 
+    "checksum": "04b6e06a27365fe91aa1a7580ebfd9f0ae4821ff  cracker2.c"
+  }, 
+  {
+    "timestamp": "2016-10-19 22:00:00.902649", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_valid_password", 
+        "description": "Test a single valid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_invalid_password", 
+        "description": "Test a single invalid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 5.0, 
+        "name": "test_two_threads", 
+        "description": "Test that 2 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 5.0, 
+        "name": "test_four_threads", 
+        "description": "Test that 4 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 5.0, 
+        "name": "test_13_threads", 
+        "description": "Test that 13 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCould not find pthread_calls output", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_use_same_threads", 
+        "description": "Test that same threads were used for second password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_eof_end", 
+        "description": "Test that the program doesn't exit until EOF is found"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_sanity", 
+        "description": "Test many many passwords."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_tsan", 
+        "description": "Test tsan doesnt throw warnings"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_early_exit", 
+        "description": "Test that program stops when 1 thread finds password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_easy", 
+        "description": "Test a single password with memory checks"
+      }
+    ], 
+    "checksum": "04b6e06a27365fe91aa1a7580ebfd9f0ae4821ff  cracker2.c", 
+    "revision": "55981"
+  }, 
+  {
+    "timestamp": "2016-10-20 22:00:01.114373", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test a single valid password", 
+        "name": "test_one_valid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test a single invalid password", 
+        "name": "test_one_invalid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password"
+      }, 
+      {
+        "ptsPossible": 5.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that 2 threads run at same time, cracking 1 password", 
+        "name": "test_two_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration"
+      }, 
+      {
+        "ptsPossible": 5.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that 4 threads run at same time, cracking 1 password", 
+        "name": "test_four_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration"
+      }, 
+      {
+        "ptsPossible": 5.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that 13 threads run at same time, cracking 1 password", 
+        "name": "test_13_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that same threads were used for second password", 
+        "name": "test_use_same_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCould not find pthread_calls output"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "name": "test_eof_end", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test many many passwords.", 
+        "name": "test_sanity", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test tsan doesnt throw warnings", 
+        "name": "test_tsan", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that program stops when 1 thread finds password", 
+        "name": "test_early_exit", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single password with memory checks", 
+        "name": "test_memory_easy", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }
+    ], 
+    "revision": "56733", 
+    "checksum": "04b6e06a27365fe91aa1a7580ebfd9f0ae4821ff  cracker2.c"
+  }, 
+  {
+    "timestamp": "2016-10-21 22:00:00.961350", 
+    "testcases": [
+      {
+        "description": "Test a single valid password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout", 
+        "name": "test_one_valid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single invalid password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password", 
+        "name": "test_one_invalid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that 2 threads run at same time, cracking 1 password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "name": "test_two_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that 4 threads run at same time, cracking 1 password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "name": "test_four_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that 13 threads run at same time, cracking 1 password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "name": "test_13_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that same threads were used for second password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCould not find pthread_calls output", 
+        "name": "test_use_same_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output", 
+        "name": "test_eof_end", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test many many passwords.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "name": "test_sanity", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test tsan doesnt throw warnings", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_tsan", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that program stops when 1 thread finds password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "name": "test_early_exit", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single password with memory checks", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_easy", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "checksum": "04b6e06a27365fe91aa1a7580ebfd9f0ae4821ff  cracker2.c", 
+    "revision": "57046"
+  }, 
+  {
+    "timestamp": "2016-10-22 22:00:00.984291", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_valid_password", 
+        "description": "Test a single valid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_one_invalid_password", 
+        "description": "Test a single invalid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 5.0, 
+        "name": "test_two_threads", 
+        "description": "Test that 2 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 5.0, 
+        "name": "test_four_threads", 
+        "description": "Test that 4 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 5.0, 
+        "name": "test_13_threads", 
+        "description": "Test that 13 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCould not find pthread_calls output", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_use_same_threads", 
+        "description": "Test that same threads were used for second password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_eof_end", 
+        "description": "Test that the program doesn't exit until EOF is found"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_sanity", 
+        "description": "Test many many passwords."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_tsan", 
+        "description": "Test tsan doesnt throw warnings"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_early_exit", 
+        "description": "Test that program stops when 1 thread finds password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_memory_easy", 
+        "description": "Test a single password with memory checks"
+      }
+    ], 
+    "revision": "57437", 
+    "checksum": "04b6e06a27365fe91aa1a7580ebfd9f0ae4821ff  cracker2.c"
+  }, 
+  {
+    "timestamp": "2016-10-23 22:00:01.001754", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test a single valid password", 
+        "name": "test_one_valid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find correct password in stdout"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test a single invalid password", 
+        "name": "test_one_invalid_password", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find output for not found password"
+      }, 
+      {
+        "ptsPossible": 5.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that 2 threads run at same time, cracking 1 password", 
+        "name": "test_two_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration"
+      }, 
+      {
+        "ptsPossible": 5.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that 4 threads run at same time, cracking 1 password", 
+        "name": "test_four_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration"
+      }, 
+      {
+        "ptsPossible": 5.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that 13 threads run at same time, cracking 1 password", 
+        "name": "test_13_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find pthread_calls output\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that same threads were used for second password", 
+        "name": "test_use_same_threads", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCould not find pthread_calls output"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "name": "test_eof_end", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nFailed to find total_time output"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test many many passwords.", 
+        "name": "test_sanity", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test tsan doesnt throw warnings", 
+        "name": "test_tsan", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that program stops when 1 thread finds password", 
+        "name": "test_early_exit", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test a single password with memory checks", 
+        "name": "test_memory_easy", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)"
+      }
+    ], 
+    "checksum": "04b6e06a27365fe91aa1a7580ebfd9f0ae4821ff  cracker2.c", 
+    "revision": "58112"
+  }, 
+  {
+    "timestamp": "2016-10-24 12:00:01.041070", 
+    "testcases": [
+      {
+        "description": "Test a single valid password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTimeout :(", 
+        "name": "test_one_valid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single invalid password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTimeout :(", 
+        "name": "test_one_invalid_password", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that 2 threads run at same time, cracking 1 password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTimeout :(", 
+        "name": "test_two_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that 4 threads run at same time, cracking 1 password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "name": "test_four_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that 13 threads run at same time, cracking 1 password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTook to long to execute, are you threading?\nCould not find correct password in output\nYour threads do not print out the correct number of iterations\nYour threads do not start at correct iteration", 
+        "name": "test_13_threads", 
+        "ptsPossible": 5.0
+      }, 
+      {
+        "description": "Test that same threads were used for second password", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_use_same_threads", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that the program doesn't exit until EOF is found", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_eof_end", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test many many passwords.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTimeout :(", 
+        "name": "test_sanity", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test tsan doesnt throw warnings", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTimeout :(", 
+        "name": "test_tsan", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that program stops when 1 thread finds password", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not find correct outputs", 
+        "name": "test_early_exit", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test a single password with memory checks", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "name": "test_memory_easy", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "58696", 
+    "checksum": "4855fb2b7ac11064eb17cfdeeeaac6d2b0e3775e  cracker2.c"
+  }, 
+  {
+    "timestamp": "2016-10-25 00:00:01.059970", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_one_valid_password", 
+        "description": "Test a single valid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_one_invalid_password", 
+        "description": "Test a single invalid password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nYour threads do not print out the correct number of iterations", 
+        "ptsPossible": 5.0, 
+        "ptsEarned": 4.0, 
+        "name": "test_two_threads", 
+        "description": "Test that 2 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nYour threads do not print out the correct number of iterations", 
+        "ptsPossible": 5.0, 
+        "ptsEarned": 4.0, 
+        "name": "test_four_threads", 
+        "description": "Test that 4 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nYour threads do not print out the correct number of iterations", 
+        "ptsPossible": 5.0, 
+        "ptsEarned": 4.0, 
+        "name": "test_13_threads", 
+        "description": "Test that 13 threads run at same time, cracking 1 password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not spawn correct number of threads", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "name": "test_use_same_threads", 
+        "description": "Test that same threads were used for second password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_eof_end", 
+        "description": "Test that the program doesn't exit until EOF is found"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_sanity", 
+        "description": "Test many many passwords."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_tsan", 
+        "description": "Test tsan doesnt throw warnings"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_early_exit", 
+        "description": "Test that program stops when 1 thread finds password"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess :)", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_memory_easy", 
+        "description": "Test a single password with memory checks"
+      }
+    ], 
+    "checksum": "6ce66379e92d165582d0bc5fde3eace8719e7282  cracker2.c", 
+    "revision": "59827"
+  }
+]

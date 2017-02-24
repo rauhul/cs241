@@ -1,0 +1,1304 @@
+[
+  {
+    "timestamp": "2016-09-10 00:00:00.210243", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resize past the current capacity", 
+        "name": "resize_past_capacity_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resize and set/get elements", 
+        "name": "resize_set_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Appending then checking/getting", 
+        "name": "append_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Appending some elements and checking/getting", 
+        "name": "append_few_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Appending 100 times and checking/getting elements", 
+        "name": "append_100_check_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Appending 1000000 times and checking/getting elements", 
+        "name": "append_1mil_check_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resize past capacity and set/get elements", 
+        "name": "resize_past_set_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resize, set elements resize smaller then get get all", 
+        "name": "resize_set_resizesmall_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resizing greater than double capacity", 
+        "name": "resize_greater_double_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Secret test. Hope you don't fail this one...", 
+        "name": "secret_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resizing to 11 then 20.", 
+        "name": "resize_11_20_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resize and check that all elements are NULL", 
+        "name": "resize_check_NULL_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Appending NULL", 
+        "name": "append_NULL_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Appending an empty string", 
+        "name": "append_empty_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Set null at random index", 
+        "name": "set_NULL_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Set an empty string at random index", 
+        "name": "set_empty_string_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resizing under capacity and checking for no allocs.", 
+        "name": "resize_check_no_alloc_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Too much stuff happening to count, but basically everything.", 
+        "name": "Big_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Inserting One entry", 
+        "name": "insert_one", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Inserting a bunch of times", 
+        "name": "insert_many", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Inserting beyond index", 
+        "name": "insert_beyond_index", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Deleting a few entries...", 
+        "name": "delete_small_vector", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Deleting a lot...", 
+        "name": "delete_full_vector", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Checking for memory issues for vector.", 
+        "name": "check_memory_vector", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==5321== Memcheck, a memory error detector\n==5321== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==5321== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==5321== Command: .../rvarma2/vector/vector_test 18\n==5321== \nvector_test: vector.c:61: void Vector_resize(Vector *, size_t): Assertion `vector' failed.\n==5321== \n==5321== Process terminating with default action of signal 6 (SIGABRT)\n==5321==    at 0x5073418: raise (raise.c:54)\n==5321==    by 0x5075019: abort (abort.c:89)\n==5321==    by 0x506BBD6: __assert_fail_base (assert.c:92)\n==5321==    by 0x506BC81: __assert_fail (assert.c:101)\n==5321==    by 0x400A9F: Vector_resize (in .../rvarma2/vector/vector_test)\n==5321==    by 0x4017AF: check_memory (in .../rvarma2/vector/vector_test)\n==5321==    by 0x402A59: main (in .../rvarma2/vector/vector_test)\n==5321== \n==5321== HEAP SUMMARY:\n==5321==     in use at exit: 0 bytes in 0 blocks\n==5321==   total heap usage: 2 allocs, 2 frees, 192 bytes allocated\n==5321== \n==5321== All heap blocks were freed -- no leaks are possible\n==5321== \n==5321== For counts of detected and suppressed errors, rerun with: -v\n==5321== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document is empty.", 
+        "name": "document_empty_file", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ndocument.c:31:13: error: unused variable 'document' [-Werror,-Wunused-variable]\n  Document *document = (Document *)malloc(sizeof(Document));\n            ^\n1 error generated.\nmake: *** [.objs/document-release.o] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document has 1 line in it.", 
+        "name": "document_one_line", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ndocument.c:31:13: error: unused variable 'document' [-Werror,-Wunused-variable]\n  Document *document = (Document *)malloc(sizeof(Document));\n            ^\n1 error generated.\nmake: *** [.objs/document-release.o] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it.", 
+        "name": "document_ten_line", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ndocument.c:31:13: error: unused variable 'document' [-Werror,-Wunused-variable]\n  Document *document = (Document *)malloc(sizeof(Document));\n            ^\n1 error generated.\nmake: *** [.objs/document-release.o] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file multiple times with changes in between.", 
+        "name": "document_multiple_write_read", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ndocument.c:31:13: error: unused variable 'document' [-Werror,-Wunused-variable]\n  Document *document = (Document *)malloc(sizeof(Document));\n            ^\n1 error generated.\nmake: *** [.objs/document-release.o] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document has some empty lines.", 
+        "name": "document_empty_lines", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ndocument.c:31:13: error: unused variable 'document' [-Werror,-Wunused-variable]\n  Document *document = (Document *)malloc(sizeof(Document));\n            ^\n1 error generated.\nmake: *** [.objs/document-release.o] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it (but with valgrind).", 
+        "name": "document_check_memory", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ndocument.c:31:13: error: unused variable 'document' [-Werror,-Wunused-variable]\n  Document *document = (Document *)malloc(sizeof(Document));\n            ^\n1 error generated.\nmake: *** [.objs/document-release.o] Error 1\n"
+      }
+    ], 
+    "revision": "12194", 
+    "checksum": "0fbf2e6b48247392e2c4bada7358b8dd66608c9a  vector.c\n83b0b2070043955df491540a0ab60d46465fb829  document.c"
+  }, 
+  {
+    "timestamp": "2016-09-11 00:00:00.547325", 
+    "testcases": [
+      {
+        "description": "Vector: Resize past the current capacity", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_past_capacity_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resize and set/get elements", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_set_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending then checking/getting", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending some elements and checking/getting", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_few_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending 100 times and checking/getting elements", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_100_check_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending 1000000 times and checking/getting elements", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_1mil_check_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resize past capacity and set/get elements", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_past_set_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resize, set elements resize smaller then get get all", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_set_resizesmall_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resizing greater than double capacity", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_greater_double_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Secret test. Hope you don't fail this one...", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "secret_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resizing to 11 then 20.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_11_20_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resize and check that all elements are NULL", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_check_NULL_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending NULL", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_NULL_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending an empty string", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_empty_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Set null at random index", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "set_NULL_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Set an empty string at random index", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "set_empty_string_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resizing under capacity and checking for no allocs.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_check_no_alloc_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Too much stuff happening to count, but basically everything.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Big_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Inserting One entry", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "insert_one", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Inserting a bunch of times", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "insert_many", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Inserting beyond index", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "insert_beyond_index", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Deleting a few entries...", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "delete_small_vector", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Deleting a lot...", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "delete_full_vector", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Checking for memory issues for vector.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==19955== Memcheck, a memory error detector\n==19955== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==19955== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==19955== Command: .../rvarma2/vector/vector_test 18\n==19955== \n==19955== \n==19955== HEAP SUMMARY:\n==19955==     in use at exit: 0 bytes in 0 blocks\n==19955==   total heap usage: 14 allocs, 14 frees, 412 bytes allocated\n==19955== \n==19955== All heap blocks were freed -- no leaks are possible\n==19955== \n==19955== For counts of detected and suppressed errors, rerun with: -v\n==19955== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n", 
+        "name": "check_memory_vector", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document is empty.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_empty_file", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document has 1 line in it.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_one_line", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_ten_line", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file multiple times with changes in between.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_multiple_write_read", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document has some empty lines.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_empty_lines", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it (but with valgrind).", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==19985== Memcheck, a memory error detector\n==19985== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==19985== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==19985== Command: ./document_test 3\n==19985== \ndocument_test: document.c:82: void Document_insert_line(Document *, size_t, const char *): Assertion `document' failed.\n==19985== \n==19985== Process terminating with default action of signal 6 (SIGABRT)\n==19985==    at 0x5073418: raise (raise.c:54)\n==19985==    by 0x5075019: abort (abort.c:89)\n==19985==    by 0x506BBD6: __assert_fail_base (assert.c:92)\n==19985==    by 0x506BC81: __assert_fail (assert.c:101)\n==19985==    by 0x400AC4: Document_insert_line (in .../rvarma2/vector/document_test)\n==19985==    by 0x401662: test_write_ten_line_file (in .../rvarma2/vector/document_test)\n==19985==    by 0x505E82F: (below main) (libc-start.c:291)\n==19985== \n==19985== HEAP SUMMARY:\n==19985==     in use at exit: 0 bytes in 0 blocks\n==19985==   total heap usage: 3 allocs, 3 frees, 521 bytes allocated\n==19985== \n==19985== All heap blocks were freed -- no leaks are possible\n==19985== \n==19985== For counts of detected and suppressed errors, rerun with: -v\n==19985== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n", 
+        "name": "document_check_memory", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "checksum": "390891bac73df99ff6c338678ca5d809782c17dd  vector.c\n0e393955774dbb54a14974f9a20d6e78587798fb  document.c", 
+    "revision": "13069"
+  }, 
+  {
+    "timestamp": "2016-09-11 14:35:00.164436", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "resize_past_capacity_test", 
+        "description": "Vector: Resize past the current capacity"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "resize_set_get_test", 
+        "description": "Vector: Resize and set/get elements"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "append_get_test", 
+        "description": "Vector: Appending then checking/getting"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "append_few_get_test", 
+        "description": "Vector: Appending some elements and checking/getting"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "append_100_check_get_test", 
+        "description": "Vector: Appending 100 times and checking/getting elements"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "append_1mil_check_get_test", 
+        "description": "Vector: Appending 1000000 times and checking/getting elements"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "resize_past_set_get_test", 
+        "description": "Vector: Resize past capacity and set/get elements"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "resize_set_resizesmall_test", 
+        "description": "Vector: Resize, set elements resize smaller then get get all"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "resize_greater_double_test", 
+        "description": "Vector: Resizing greater than double capacity"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "secret_test", 
+        "description": "Vector: Secret test. Hope you don't fail this one..."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "resize_11_20_test", 
+        "description": "Vector: Resizing to 11 then 20."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "resize_check_NULL_test", 
+        "description": "Vector: Resize and check that all elements are NULL"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "append_NULL_test", 
+        "description": "Vector: Appending NULL"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "append_empty_test", 
+        "description": "Vector: Appending an empty string"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "set_NULL_test", 
+        "description": "Vector: Set null at random index"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "set_empty_string_test", 
+        "description": "Vector: Set an empty string at random index"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "resize_check_no_alloc_test", 
+        "description": "Vector: Resizing under capacity and checking for no allocs."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "Big_test", 
+        "description": "Vector: Too much stuff happening to count, but basically everything."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "insert_one", 
+        "description": "Vector: Inserting One entry"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "insert_many", 
+        "description": "Vector: Inserting a bunch of times"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "insert_beyond_index", 
+        "description": "Vector: Inserting beyond index"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "delete_small_vector", 
+        "description": "Vector: Deleting a few entries..."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "delete_full_vector", 
+        "description": "Vector: Deleting a lot..."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==2328== Memcheck, a memory error detector\n==2328== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==2328== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==2328== Command: .../rvarma2/vector/vector_test 18\n==2328== \n==2328== \n==2328== HEAP SUMMARY:\n==2328==     in use at exit: 0 bytes in 0 blocks\n==2328==   total heap usage: 14 allocs, 14 frees, 412 bytes allocated\n==2328== \n==2328== All heap blocks were freed -- no leaks are possible\n==2328== \n==2328== For counts of detected and suppressed errors, rerun with: -v\n==2328== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "check_memory_vector", 
+        "description": "Vector: Checking for memory issues for vector."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "document_empty_file", 
+        "description": "Document: Test document write/read to/from file when document is empty."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "document_one_line", 
+        "description": "Document: Test document write/read to/from file when document has 1 line in it."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "document_ten_line", 
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "document_multiple_write_read", 
+        "description": "Document: Test document write/read to/from file multiple times with changes in between."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "document_empty_lines", 
+        "description": "Document: Test document write/read to/from file when document has some empty lines."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==2358== Memcheck, a memory error detector\n==2358== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==2358== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==2358== Command: ./document_test 3\n==2358== \ndocument_test: document.c:82: void Document_insert_line(Document *, size_t, const char *): Assertion `document' failed.\n==2358== \n==2358== Process terminating with default action of signal 6 (SIGABRT)\n==2358==    at 0x5073418: raise (raise.c:54)\n==2358==    by 0x5075019: abort (abort.c:89)\n==2358==    by 0x506BBD6: __assert_fail_base (assert.c:92)\n==2358==    by 0x506BC81: __assert_fail (assert.c:101)\n==2358==    by 0x400AC4: Document_insert_line (in .../rvarma2/vector/document_test)\n==2358==    by 0x401662: test_write_ten_line_file (in .../rvarma2/vector/document_test)\n==2358==    by 0x505E82F: (below main) (libc-start.c:291)\n==2358== \n==2358== HEAP SUMMARY:\n==2358==     in use at exit: 0 bytes in 0 blocks\n==2358==   total heap usage: 3 allocs, 3 frees, 521 bytes allocated\n==2358== \n==2358== All heap blocks were freed -- no leaks are possible\n==2358== \n==2358== For counts of detected and suppressed errors, rerun with: -v\n==2358== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "document_check_memory", 
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it (but with valgrind)."
+      }
+    ], 
+    "revision": "13327", 
+    "checksum": "aa6818818c4f34e2364730c9b8994894322b2fe6  vector.c\n0e393955774dbb54a14974f9a20d6e78587798fb  document.c"
+  }, 
+  {
+    "timestamp": "2016-09-12 00:00:00.275868", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Resize past the current capacity", 
+        "name": "resize_past_capacity_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Resize and set/get elements", 
+        "name": "resize_set_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Appending then checking/getting", 
+        "name": "append_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Appending some elements and checking/getting", 
+        "name": "append_few_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Appending 100 times and checking/getting elements", 
+        "name": "append_100_check_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Appending 1000000 times and checking/getting elements", 
+        "name": "append_1mil_check_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Resize past capacity and set/get elements", 
+        "name": "resize_past_set_get_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Resize, set elements resize smaller then get get all", 
+        "name": "resize_set_resizesmall_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Resizing greater than double capacity", 
+        "name": "resize_greater_double_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Secret test. Hope you don't fail this one...", 
+        "name": "secret_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Resizing to 11 then 20.", 
+        "name": "resize_11_20_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Resize and check that all elements are NULL", 
+        "name": "resize_check_NULL_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Vector: Appending NULL", 
+        "name": "append_NULL_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Appending an empty string", 
+        "name": "append_empty_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Set null at random index", 
+        "name": "set_NULL_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Set an empty string at random index", 
+        "name": "set_empty_string_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Resizing under capacity and checking for no allocs.", 
+        "name": "resize_check_no_alloc_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Too much stuff happening to count, but basically everything.", 
+        "name": "Big_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Inserting One entry", 
+        "name": "insert_one", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Inserting a bunch of times", 
+        "name": "insert_many", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Inserting beyond index", 
+        "name": "insert_beyond_index", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Deleting a few entries...", 
+        "name": "delete_small_vector", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Deleting a lot...", 
+        "name": "delete_full_vector", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Vector: Checking for memory issues for vector.", 
+        "name": "check_memory_vector", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==16888== Memcheck, a memory error detector\n==16888== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==16888== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==16888== Command: .../rvarma2/vector/vector_test 18\n==16888== \n==16888== \n==16888== HEAP SUMMARY:\n==16888==     in use at exit: 0 bytes in 0 blocks\n==16888==   total heap usage: 14 allocs, 14 frees, 412 bytes allocated\n==16888== \n==16888== All heap blocks were freed -- no leaks are possible\n==16888== \n==16888== For counts of detected and suppressed errors, rerun with: -v\n==16888== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document is empty.", 
+        "name": "document_empty_file", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document has 1 line in it.", 
+        "name": "document_one_line", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it.", 
+        "name": "document_ten_line", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file multiple times with changes in between.", 
+        "name": "document_multiple_write_read", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document has some empty lines.", 
+        "name": "document_empty_lines", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it (but with valgrind).", 
+        "name": "document_check_memory", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==16918== Memcheck, a memory error detector\n==16918== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==16918== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==16918== Command: ./document_test 3\n==16918== \ndocument_test: document.c:82: void Document_insert_line(Document *, size_t, const char *): Assertion `document' failed.\n==16918== \n==16918== Process terminating with default action of signal 6 (SIGABRT)\n==16918==    at 0x5073418: raise (raise.c:54)\n==16918==    by 0x5075019: abort (abort.c:89)\n==16918==    by 0x506BBD6: __assert_fail_base (assert.c:92)\n==16918==    by 0x506BC81: __assert_fail (assert.c:101)\n==16918==    by 0x400A84: Document_insert_line (in .../rvarma2/vector/document_test)\n==16918==    by 0x4014E2: test_write_ten_line_file (in .../rvarma2/vector/document_test)\n==16918==    by 0x505E82F: (below main) (libc-start.c:291)\n==16918== \n==16918== HEAP SUMMARY:\n==16918==     in use at exit: 0 bytes in 0 blocks\n==16918==   total heap usage: 3 allocs, 3 frees, 521 bytes allocated\n==16918== \n==16918== All heap blocks were freed -- no leaks are possible\n==16918== \n==16918== For counts of detected and suppressed errors, rerun with: -v\n==16918== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n"
+      }
+    ], 
+    "checksum": "b4efd995efe6884d2eea1e1ad5513bc35f2819b4  vector.c\n0e393955774dbb54a14974f9a20d6e78587798fb  document.c", 
+    "revision": "14320"
+  }, 
+  {
+    "timestamp": "2016-09-13 00:00:00.603862", 
+    "testcases": [
+      {
+        "description": "Vector: Resize past the current capacity", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_past_capacity_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resize and set/get elements", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_set_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending then checking/getting", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending some elements and checking/getting", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_few_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending 100 times and checking/getting elements", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_100_check_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending 1000000 times and checking/getting elements", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_1mil_check_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resize past capacity and set/get elements", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_past_set_get_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resize, set elements resize smaller then get get all", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_set_resizesmall_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resizing greater than double capacity", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_greater_double_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Secret test. Hope you don't fail this one...", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "secret_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resizing to 11 then 20.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_11_20_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resize and check that all elements are NULL", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_check_NULL_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending NULL", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_NULL_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Appending an empty string", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "append_empty_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Set null at random index", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "set_NULL_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Set an empty string at random index", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "set_empty_string_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Resizing under capacity and checking for no allocs.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "resize_check_no_alloc_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Too much stuff happening to count, but basically everything.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Big_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Inserting One entry", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "insert_one", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Inserting a bunch of times", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "insert_many", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Inserting beyond index", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "insert_beyond_index", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Deleting a few entries...", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "delete_small_vector", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Deleting a lot...", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "delete_full_vector", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Vector: Checking for memory issues for vector.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==31919== Memcheck, a memory error detector\n==31919== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==31919== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==31919== Command: .../rvarma2/vector/vector_test 18\n==31919== \n==31919== \n==31919== HEAP SUMMARY:\n==31919==     in use at exit: 0 bytes in 0 blocks\n==31919==   total heap usage: 14 allocs, 14 frees, 412 bytes allocated\n==31919== \n==31919== All heap blocks were freed -- no leaks are possible\n==31919== \n==31919== For counts of detected and suppressed errors, rerun with: -v\n==31919== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n", 
+        "name": "check_memory_vector", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document is empty.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_empty_file", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document has 1 line in it.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_one_line", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_ten_line", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file multiple times with changes in between.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_multiple_write_read", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document has some empty lines.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "document_empty_lines", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it (but with valgrind).", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==31949== Memcheck, a memory error detector\n==31949== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==31949== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==31949== Command: ./document_test 3\n==31949== \n==31949== \n==31949== HEAP SUMMARY:\n==31949==     in use at exit: 0 bytes in 0 blocks\n==31949==   total heap usage: 31 allocs, 31 frees, 10,808 bytes allocated\n==31949== \n==31949== All heap blocks were freed -- no leaks are possible\n==31949== \n==31949== For counts of detected and suppressed errors, rerun with: -v\n==31949== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n", 
+        "name": "document_check_memory", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "16163", 
+    "checksum": "7f84735548d81baca05916baa0d0b00d4260a757  vector.c\n6d6ceb2cc858841aefcf28a064e6bc90791604d9  document.c"
+  }, 
+  {
+    "timestamp": "2016-09-14 13:36:49.925013", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "resize_past_capacity_test", 
+        "description": "Vector: Resize past the current capacity"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "resize_set_get_test", 
+        "description": "Vector: Resize and set/get elements"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "append_get_test", 
+        "description": "Vector: Appending then checking/getting"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "append_few_get_test", 
+        "description": "Vector: Appending some elements and checking/getting"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "append_100_check_get_test", 
+        "description": "Vector: Appending 100 times and checking/getting elements"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "append_1mil_check_get_test", 
+        "description": "Vector: Appending 1000000 times and checking/getting elements"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "resize_past_set_get_test", 
+        "description": "Vector: Resize past capacity and set/get elements"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "resize_set_resizesmall_test", 
+        "description": "Vector: Resize, set elements resize smaller then get get all"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "resize_greater_double_test", 
+        "description": "Vector: Resizing greater than double capacity"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "secret_test", 
+        "description": "Vector: Secret test. Hope you don't fail this one..."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "resize_11_20_test", 
+        "description": "Vector: Resizing to 11 then 20."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "resize_check_NULL_test", 
+        "description": "Vector: Resize and check that all elements are NULL"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "append_NULL_test", 
+        "description": "Vector: Appending NULL"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "append_empty_test", 
+        "description": "Vector: Appending an empty string"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "set_NULL_test", 
+        "description": "Vector: Set null at random index"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "set_empty_string_test", 
+        "description": "Vector: Set an empty string at random index"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "resize_check_no_alloc_test", 
+        "description": "Vector: Resizing under capacity and checking for no allocs."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Big_test", 
+        "description": "Vector: Too much stuff happening to count, but basically everything."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "insert_one", 
+        "description": "Vector: Inserting One entry"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "insert_many", 
+        "description": "Vector: Inserting a bunch of times"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "insert_beyond_index", 
+        "description": "Vector: Inserting beyond index"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "delete_small_vector", 
+        "description": "Vector: Deleting a few entries..."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "delete_full_vector", 
+        "description": "Vector: Deleting a lot..."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==12572== Memcheck, a memory error detector\n==12572== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==12572== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==12572== Command: .../rvarma2/vector/vector_test 18\n==12572== \n==12572== \n==12572== HEAP SUMMARY:\n==12572==     in use at exit: 0 bytes in 0 blocks\n==12572==   total heap usage: 14 allocs, 14 frees, 412 bytes allocated\n==12572== \n==12572== All heap blocks were freed -- no leaks are possible\n==12572== \n==12572== For counts of detected and suppressed errors, rerun with: -v\n==12572== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "check_memory_vector", 
+        "description": "Vector: Checking for memory issues for vector."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "document_empty_file", 
+        "description": "Document: Test document write/read to/from file when document is empty."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "document_one_line", 
+        "description": "Document: Test document write/read to/from file when document has 1 line in it."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "document_ten_line", 
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "document_multiple_write_read", 
+        "description": "Document: Test document write/read to/from file multiple times with changes in between."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "document_empty_lines", 
+        "description": "Document: Test document write/read to/from file when document has some empty lines."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==12602== Memcheck, a memory error detector\n==12602== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==12602== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==12602== Command: ./document_test 3\n==12602== \n==12602== \n==12602== HEAP SUMMARY:\n==12602==     in use at exit: 0 bytes in 0 blocks\n==12602==   total heap usage: 31 allocs, 31 frees, 10,808 bytes allocated\n==12602== \n==12602== All heap blocks were freed -- no leaks are possible\n==12602== \n==12602== For counts of detected and suppressed errors, rerun with: -v\n==12602== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "document_check_memory", 
+        "description": "Document: Test document write/read to/from file when document has 10 lines in it (but with valgrind)."
+      }
+    ], 
+    "checksum": "7f84735548d81baca05916baa0d0b00d4260a757  vector.c\n6d6ceb2cc858841aefcf28a064e6bc90791604d9  document.c", 
+    "revision": "19328"
+  }
+]

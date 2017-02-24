@@ -1,0 +1,10 @@
+a: b c d e
+	echo "[Stage 3]: This should be the last to run."
+b: d e
+	echo "[Stage 2](#1): This should run as part of \"Stage 2\", always before \"Stage 3\"."
+c: d e
+	echo "[Stage 2](#2): This should run as part of \"Stage 2\", always before \"Stage 3\"."
+d:
+	echo "[Stage 1](#1): This should run as part of \"Stage 1\", always before \"Stage 2\"."
+e:
+	echo "[Stage 1](#2): This should run as part of \"Stage 1\", always before \"Stage 2\"."

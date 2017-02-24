@@ -1,0 +1,13 @@
+all: a c
+	echo This command should not run, since 'a' should fail to run
+	echo However 'c' should run, since it has no dependencies
+
+a: b
+	echo This command should not run, since it has a cycle dependency
+
+b: a
+	echo This command should not run, since it has a cycle dependency
+
+c:
+	echo This should be the only line that prints out
+

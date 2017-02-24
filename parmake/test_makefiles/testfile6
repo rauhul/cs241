@@ -1,0 +1,4 @@
+all:
+	echo "This line should always be displayed."
+	cat blahblahblah
+	echo "This line should never be displayed, because cat returned non-0."

@@ -1,0 +1,457 @@
+[
+  {
+    "timestamp": "2016-09-26 15:00:00.216988", 
+    "testcases": [
+      {
+        "description": "Applies the triple mapper function to a large-sized input with one thread.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - one thread - large input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to a small-sized input with four threads.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - four threads - small input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to a large-sized input with four threads.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - four threads - large input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the negate mapper function to a large-sized input with one thread.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Negate - one thread - large input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the negate mapper function to a small-sized input with four threads.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Negate - four threads - small input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the negate mapper function to a large-sized input with four threads.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Negate - four threads - large input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function with an equal number of threads and inputs.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - equal number of threads and inputs", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function with a larger number of threads than inputs.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - more threads than input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to inputs which are a multiple of the number of threads.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - Perfect Division", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - Unequal Division 1", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - Unequal Division 2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the slow mapper function to a small input with four threads, and compares speed with a single threaded version.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Slow - Speed Test", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "checksum": "8649c6484ea50c60a04ff14d3b09432f0655f33c  par_map.c", 
+    "revision": "32782"
+  }, 
+  {
+    "timestamp": "2016-09-27 00:00:00.542022", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Triple - one thread - large input", 
+        "description": "Applies the triple mapper function to a large-sized input with one thread."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Triple - four threads - small input", 
+        "description": "Applies the triple mapper function to a small-sized input with four threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Triple - four threads - large input", 
+        "description": "Applies the triple mapper function to a large-sized input with four threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Negate - one thread - large input", 
+        "description": "Applies the negate mapper function to a large-sized input with one thread."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Negate - four threads - small input", 
+        "description": "Applies the negate mapper function to a small-sized input with four threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Negate - four threads - large input", 
+        "description": "Applies the negate mapper function to a large-sized input with four threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Triple - equal number of threads and inputs", 
+        "description": "Applies the triple mapper function with an equal number of threads and inputs."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "Triple - more threads than input", 
+        "description": "Applies the triple mapper function with a larger number of threads than inputs."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Triple - Perfect Division", 
+        "description": "Applies the triple mapper function to inputs which are a multiple of the number of threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Triple - Unequal Division 1", 
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Triple - Unequal Division 2", 
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "Slow - Speed Test", 
+        "description": "Applies the slow mapper function to a small input with four threads, and compares speed with a single threaded version."
+      }
+    ], 
+    "revision": "34208", 
+    "checksum": "f2ccc44314c11012b4418019d2da5fe6802fdda4  par_map.c"
+  }, 
+  {
+    "timestamp": "2016-09-28 00:00:00.523235", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the triple mapper function to a large-sized input with one thread.", 
+        "name": "Triple - one thread - large input", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the triple mapper function to a small-sized input with four threads.", 
+        "name": "Triple - four threads - small input", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the triple mapper function to a large-sized input with four threads.", 
+        "name": "Triple - four threads - large input", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the negate mapper function to a large-sized input with one thread.", 
+        "name": "Negate - one thread - large input", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the negate mapper function to a small-sized input with four threads.", 
+        "name": "Negate - four threads - small input", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the negate mapper function to a large-sized input with four threads.", 
+        "name": "Negate - four threads - large input", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the triple mapper function with an equal number of threads and inputs.", 
+        "name": "Triple - equal number of threads and inputs", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the triple mapper function with a larger number of threads than inputs.", 
+        "name": "Triple - more threads than input", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the triple mapper function to inputs which are a multiple of the number of threads.", 
+        "name": "Triple - Perfect Division", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads.", 
+        "name": "Triple - Unequal Division 1", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads.", 
+        "name": "Triple - Unequal Division 2", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Applies the slow mapper function to a small input with four threads, and compares speed with a single threaded version.", 
+        "name": "Slow - Speed Test", 
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npar_map.c:11:17: fatal error: map.h: No such file or directory\ncompilation terminated.\nmake: *** [par_map] Error 1\n"
+      }
+    ], 
+    "checksum": "f2ccc44314c11012b4418019d2da5fe6802fdda4  par_map.c", 
+    "revision": "34891"
+  }, 
+  {
+    "timestamp": "2016-09-28 01:11:00.146281", 
+    "testcases": [
+      {
+        "description": "Applies the triple mapper function to a large-sized input with one thread.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - one thread - large input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to a small-sized input with four threads.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - four threads - small input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to a large-sized input with four threads.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - four threads - large input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the negate mapper function to a large-sized input with one thread.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Negate - one thread - large input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the negate mapper function to a small-sized input with four threads.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Negate - four threads - small input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the negate mapper function to a large-sized input with four threads.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Negate - four threads - large input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function with an equal number of threads and inputs.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - equal number of threads and inputs", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function with a larger number of threads than inputs.", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - more threads than input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to inputs which are a multiple of the number of threads.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - Perfect Division", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - Unequal Division 1", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Triple - Unequal Division 2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Applies the slow mapper function to a small input with four threads, and compares speed with a single threaded version.", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "Slow - Speed Test", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "34972", 
+    "checksum": "f2ccc44314c11012b4418019d2da5fe6802fdda4  par_map.c"
+  }, 
+  {
+    "timestamp": "2016-09-29 00:00:00.511144", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Triple - one thread - large input", 
+        "description": "Applies the triple mapper function to a large-sized input with one thread."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Triple - four threads - small input", 
+        "description": "Applies the triple mapper function to a small-sized input with four threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Triple - four threads - large input", 
+        "description": "Applies the triple mapper function to a large-sized input with four threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Negate - one thread - large input", 
+        "description": "Applies the negate mapper function to a large-sized input with one thread."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Negate - four threads - small input", 
+        "description": "Applies the negate mapper function to a small-sized input with four threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Negate - four threads - large input", 
+        "description": "Applies the negate mapper function to a large-sized input with four threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Triple - equal number of threads and inputs", 
+        "description": "Applies the triple mapper function with an equal number of threads and inputs."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "name": "Triple - more threads than input", 
+        "description": "Applies the triple mapper function with a larger number of threads than inputs."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Triple - Perfect Division", 
+        "description": "Applies the triple mapper function to inputs which are a multiple of the number of threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Triple - Unequal Division 1", 
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Triple - Unequal Division 2", 
+        "description": "Applies the triple mapper function to inputs which are not a multiple of the number of threads."
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "Slow - Speed Test", 
+        "description": "Applies the slow mapper function to a small input with four threads, and compares speed with a single threaded version."
+      }
+    ], 
+    "checksum": "f2ccc44314c11012b4418019d2da5fe6802fdda4  par_map.c", 
+    "revision": "35928"
+  }
+]

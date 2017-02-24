@@ -1,0 +1,9 @@
+Heap report:
+
+
+Program made 1 bad call(s) to free.
+
+Heap summary:
+
+	Total memory usage: 84 bytes, Total memory free: 84 bytes
+	No leak, all memory are freed, Congratulations!

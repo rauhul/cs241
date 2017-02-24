@@ -1,0 +1,51 @@
+all: s4
+
+s1:
+	echo "All of Stage #1 should run at the SAME time (with threads >= 2)"
+
+s1a: s1
+	echo "Stage #1(a)"
+	sleep 5
+	echo "Stage #1(a) complete!"
+s1b: s1
+	echo "Stage #1(b)"
+	sleep 5
+	echo "Stage #1(b) complete!"
+
+
+s2: s1a s1b
+	echo "Stage #2 should not run until after all of Stage #1 has completed."
+
+s2a: s2
+	echo "Stage #2"
+	sleep 5
+
+
+s3: s2a
+	echo "Stage #3 should not run until after all of Stage #2 has completed."
+	echo "All of Stage #3 should run at the SAME time (with threads >= 3)."
+	echo
+	echo "With (threads == 2), two of the three Stage #3s should run at first."
+	echo "If Stage #3(b) runs during the first batch, it will finish AFTER the"
+	echo "other Stage #3 thread.  Stage #3(a) or Stage #3(c), whichever thread"
+	echo "that did not run with Stage #3(b), should start running before Stage #3(b)"
+	echo "finishes."
+	echo
+
+s3a: s3
+	echo "Stage #3(a)"
+	sleep 5
+	echo "Stage #3(a) complete!"
+s3b: s3
+	echo "Stage #3(b)"
+	sleep 8
+	echo "Stage #3(b) complete!"
+s3c: s3
+	echo "Stage #3(c)"
+	sleep 5
+	echo "Stage #3(c) complete!"
+
+
+s4: s3a s3b s3c
+	echo "This should be the final line, only after all of Stage #3 has completed."
+
